@@ -18,7 +18,7 @@ translations:
       - Save your session as you go
 
       - Notify you when results are live
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
   - key: general.survey_read_only
@@ -600,19 +600,19 @@ translations:
       Not Listed
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
       Visual impairments
-  - key: options.disability_status.hearing_impairments
+  - key: options.disability_status.hearing_impairments.short
     t: >
       Hearing impairments
-  - key: options.disability_status.mobility_impairments
+  - key: options.disability_status.mobility_impairments.short
     t: >
       Mobility impairments
-  - key: options.disability_status.cognitive_impairments
+  - key: options.disability_status.cognitive_impairments.short
     t: >
       Cognitive impairments
-  - key: options.disability_status.not_listed
+  - key: options.disability_status.not_listed.short
     t: >
       Not Listed
 
