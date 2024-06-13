@@ -388,7 +388,7 @@ translations:
 
   - key: tools_others.runtimes
     t: JavaScript Runtimes
-  - key: tools_others.runtimes.description
+  - key: tools_others.runtimes.question
     t: Which engines/runtimes/execution environments do you regularly use?
   - key: tools_others.runtimes.others
     t: Other Runtimes
@@ -397,7 +397,7 @@ translations:
 
   - key: tools_others.package_registries
     t: Package Registries
-  - key: tools_others.package_registries.description
+  - key: tools_others.package_registries.question
     t: Which package registries do you regularly fetch packages from?
   - key: tools_others.package_registries.others
     t: Other Package Registries
@@ -411,35 +411,35 @@ translations:
 
   - key: tools_others.backend_as_a_service
     t: Backend-as-a-Service Providers
-  - key: tools_others.backend_as_a_service.description
+  - key: tools_others.backend_as_a_service.question
     t: Services that host your data and offer a client API to access it.
   - key: tools_others.backend_as_a_service.others
     t: Other BaaS Providers
 
   - key: tools_others.date_management
     t: Date Management
-  - key: tools_others.date_management.description
+  - key: tools_others.date_management.question
     t: Libraries that help with date and timezone management.
   - key: tools_others.date_management.others
     t: Other Date Management Libraries
 
   - key: tools_others.data_visualization
     t: Data Visualization
-  - key: tools_others.data_visualization.description
+  - key: tools_others.data_visualization.question
     t: Libraries that help with charts and other data visualizations.
   - key: tools_others.data_visualization.others
     t: Other Data Visualization Libraries
 
   - key: tools_others.graphics_animation
     t: Graphics & Animations
-  - key: tools_others.graphics_animation.description
+  - key: tools_others.graphics_animation.question
     t: Libraries dedicated to graphcis and animation.
   - key: tools_others.graphics_animation.others
     t: Other Graphics & Animations Libraries
 
   - key: tools_others.data_fetching
     t: Data Fetching
-  - key: tools_others.data_fetching.description
+  - key: tools_others.data_fetching.question
     t: Libraries that manage data fetching and caching.
   - key: tools_others.data_fetching.others
     t: Other Data Fetching Libraries
