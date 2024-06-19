@@ -133,7 +133,7 @@ translations:
   - key: options.quadrant.4.long
     t: |
       4: High usage, low retention. Reassess these technologies if you're currently using them.
-      
+
   - key: ranges.selector.years_of_experience
     t: Experience
   - key: ranges.selector.yearly_salary
@@ -148,7 +148,7 @@ translations:
     t: Forums
   - key: options.first_steps.view_source
     t: View Source
-  
+
   # other disablities
   - key: options.disability_status_others.adhd
     t: ADHD
@@ -174,7 +174,7 @@ translations:
     t: Diabetes
   - key: options.disability_status_others.carpal_tunnel
     t: Carpal Tunnel
-    
+
   ###########################################################################
   # Sections
   ###########################################################################
@@ -397,9 +397,9 @@ translations:
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        For each section, which percentage of respondents **use** 
-        (defined as having answered “would use again”) one, two, three, etc. technologies.
-        The bottom-most bar represents the sum of all other bars.  
+      For each section, which percentage of respondents **use** 
+      (defined as having answered “would use again”) one, two, three, etc. technologies.
+      The bottom-most bar represents the sum of all other bars.
 
   - key: blocks.cardinality.max
     t: Most common answer
@@ -460,7 +460,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Library Tier List
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       This chart ranks libraries based on their retention ratio (percentage of users
       who would use a library again). Note that libraries used by less than 10% of survey 
@@ -529,7 +529,7 @@ translations:
       The size of the **outer circle** corresponds to the total number of users who know about a feature (*know about it* + *have used it* respondents), while
       the **inner circle** represents those who have actually used it (*have used it* respondents).
 
-      Hover on each circle to see detailed stats, including the ratio between both values. 
+      Hover on each circle to see detailed stats, including the ratio between both values.
 
   # export
   - key: export.export
@@ -565,13 +565,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
 
-        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+      2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
 
-        3. In the explorer window, click the Play ("Execute Query") button.
+      3. In the explorer window, click the Play ("Execute Query") button.
 
-        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+      4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -631,7 +631,7 @@ translations:
   - key: charts.all_respondents
     t: All Respondents
   - key: charts.facet_responses
-    t: '{count} responses'
+    t: "{count} responses"
 
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
@@ -666,7 +666,7 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: chart_units.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-    
+
   - key: charts.axis_legends.happiness
     t: Happiness
   - key: charts.axis_legends.knowledge_score
@@ -809,7 +809,6 @@ translations:
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
 
-
   - key: table.percentages_table
     t: Percentages
   - key: table.rankings_table
@@ -938,7 +937,7 @@ translations:
   - key: hints.share_hint
     t: >
       The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image. 
+      or even download it as an image.
 
   - key: hints.bracket_hint
     t: >
@@ -956,11 +955,10 @@ translations:
     t: >
       Thanks for supporting the survey. Your avatar should appear next to the chart you picked
       within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
-    
 
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donated **${amount}** to sponsor this chart
+      **{name}** donated **${amount}** to sponsor this chart
 
   - key: sponsor.sponsor_button
     t: Sponsor This Chart
@@ -970,14 +968,14 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Support this survey financially by donating $10 or more, and get your
-        Twitter avatar featured next to a chart!
+      Support this survey financially by donating $10 or more, and get your
+      Twitter avatar featured next to a chart!
 
   - key: sponsor.chart_id
-    t: 'Chart ID: '
+    t: "Chart ID: "
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+) 
+    t: Sponsor This Chart (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
     t: How It Works
@@ -985,19 +983,18 @@ translations:
   - key: sponsor.how_it_works.description
     t: >
       1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
-      
-      
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
-      
-      
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
-      
-      
-      4. You will see a **File Download** page, but you can safely ignore it. 
-      
-      
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**. 
 
+
+      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+
+
+      3. Once you checkout, you will be able to **provide your Twitter username**. 
+
+
+      4. You will see a **File Download** page, but you can safely ignore it. 
+
+
+      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
 
   - key: sponsor.faq.title
     t: F.A.Q.
@@ -1018,19 +1015,19 @@ translations:
   #   t: Can I donate on somebody else's behalf?
 
   # - key: sponsor.faq.donation_public.description
-  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
     t: What's your refund policy?
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees. 
+    t: All donations are refundable within a 1-week period, minus transaction fees.
 
   - key: sponsor.faq.influence.title
     t: Do donations influence the survey contents?
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey. 
+    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
 
   - key: sponsor.faq.feedback.title
     t: Where can I leave feedback/ask questions?
