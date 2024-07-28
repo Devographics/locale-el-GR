@@ -90,7 +90,7 @@ translations:
 
   - key: tools_others.pre_post_processors
     aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.question
     aliasFor: sections.pre_post_processors.description
 
   - key: tools_others.pre_post_processors.others
@@ -574,7 +574,7 @@ translations:
 
   - key: environments.form_factors
     t: Testing Environments
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: Which form factors or environments do you test on?
   - key: environments.form_factors.others
     t: Other Testing Environments
@@ -583,7 +583,7 @@ translations:
 
   - key: environments.accessibility_features
     t: Accessibility Features
-  - key: environments.accessibility_features.description
+  - key: environments.accessibility_features.question
     t: Which accessibility features do you usually implement?
   - key: environments.accessibility_features.others
     t: Other Accessibility Features
@@ -592,17 +592,17 @@ translations:
 
   - key: environments.css_for_print
     t: CSS for Print
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: Do you write print styles?
 
   - key: environments.css_for_email
     t: CSS for Email Clients
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: Do you write CSS for email clients?
 
   - key: environments.what_do_you_use_css_for
     t: What do you mainly use CSS for?
-  - key: environments.what_do_you_use_css_for.description
+  - key: environments.what_do_you_use_css_for.question
     t: What kind of project do you usually use CSS for?
   - key: environments.what_do_you_use_css_for.others
     t: Other kinds of projects
@@ -742,7 +742,7 @@ translations:
 
   - key: usage.css_js_balance
     t: CSS vs JavaScript Balance
-  - key: usage.css_js_balance.description
+  - key: usage.css_js_balance.question
     t: How do you divide your time between writing CSS (including HTML markup) and JavaScript code?
 
   ###########################################################################
