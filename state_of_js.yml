@@ -99,9 +99,9 @@ translations:
   - key: sections.monorepo_tools.description
     t: Tools used to manage JavaScript monorepos.
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: Other Tools
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: Other JavaScript tools
 
   - key: sections.other_tools.title
@@ -386,69 +386,69 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: JavaScript Runtimes
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: Which engines/runtimes/execution environments do you regularly use?
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: Other Runtimes
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: Other answers (freeform field).
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: Package Registries
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: Which package registries do you regularly fetch packages from?
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: Other Package Registries
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: Other answers (freeform field).
 
-  - key: tools_others.form_factors
+  - key: tools.form_factors
     aliasFor: environments.form_factors
-  - key: tools_others.form_factors.description
+  - key: tools.form_factors.description
     aliasFor: environments.form_factors.question
 
-  - key: tools_others.backend_as_a_service
+  - key: tools.backend_as_a_service
     t: Backend-as-a-Service Providers
-  - key: tools_others.backend_as_a_service.question
+  - key: tools.backend_as_a_service.question
     t: Services that host your data and offer a client API to access it.
-  - key: tools_others.backend_as_a_service.others
+  - key: tools.backend_as_a_service.others
     t: Other BaaS Providers
 
-  - key: tools_others.date_management
+  - key: tools.date_management
     t: Date Management
-  - key: tools_others.date_management.question
+  - key: tools.date_management.question
     t: Libraries that help with date and timezone management.
-  - key: tools_others.date_management.others
+  - key: tools.date_management.others
     t: Other Date Management Libraries
 
-  - key: tools_others.data_visualization
+  - key: tools.data_visualization
     t: Data Visualization
-  - key: tools_others.data_visualization.question
+  - key: tools.data_visualization.question
     t: Libraries that help with charts and other data visualizations.
-  - key: tools_others.data_visualization.others
+  - key: tools.data_visualization.others
     t: Other Data Visualization Libraries
 
-  - key: tools_others.graphics_animation
+  - key: tools.graphics_animation
     t: Graphics & Animations
-  - key: tools_others.graphics_animation.question
+  - key: tools.graphics_animation.question
     t: Libraries dedicated to graphcis and animation.
-  - key: tools_others.graphics_animation.others
+  - key: tools.graphics_animation.others
     t: Other Graphics & Animations Libraries
 
-  - key: tools_others.data_fetching
+  - key: tools.data_fetching
     t: Data Fetching
-  - key: tools_others.data_fetching.question
+  - key: tools.data_fetching.question
     t: Libraries that manage data fetching and caching.
-  - key: tools_others.data_fetching.others
+  - key: tools.data_fetching.others
     t: Other Data Fetching Libraries
 
-  - key: tools_others.backend_frameworks
+  - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
-  - key: tools_others.backend_frameworks.description
+  - key: tools.backend_frameworks.description
     t: Frameworks for generating APIs and managing back-ends
-  - key: tools_others.backend_frameworks.others
+  - key: tools.backend_frameworks.others
     t: Other Back-end Frameworks
 
   ###########################################################################
@@ -472,11 +472,11 @@ translations:
   - key: usage.js_ts_balance.question
     t: Assuming you use TypeScript, how do you divide your time between writing JavaScript and TypeScript code?
 
-  - key: tools_others.edge_runtimes
+  - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless Runtimes
-  - key: tools_others.edge_runtimes.question
+  - key: tools.edge_runtimes.question
     t: Which edge or serverless runtimes do you regularly use?
-  - key: tools_others.edge_runtimes.others
+  - key: tools.edge_runtimes.others
     t: Other Edge Runtimes
 
   - key: usage.usage_type
