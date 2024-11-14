@@ -736,7 +736,7 @@ translations:
   - key: share.site.title
     t: Discover the {siteTitle} results
   - key: share.site.twitter_text
-    t: "Discover the {siteTitle} results {link} {hashtag}"
+    t: "Discover the {siteTitle} results {link}"
   - key: share.site.subject
     t: "{siteTitle} Survey Results"
   - key: share.site.body
