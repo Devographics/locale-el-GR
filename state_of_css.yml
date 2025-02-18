@@ -279,97 +279,97 @@ translations:
   # layout
 
   - key: features.regions
-    t: CSS Regions
+    t: Περιοχές CSS
   - key: features.multi_column
-    t: CSS Multi-Column
+    t: CSS Πολλαπλών Στηλών
   - key: features.writing_modes
-    t: CSS Writing Modes
+    t: CSS Τρόποι Λειτουργίας
   - key: features.exclusions
-    t: CSS Exclusions
+    t: CSS Εξαιρέσεις
 
   - key: features.flexbox_gap
-    t: "`gap` property for flexbox"
+    t: "`gap` ιδιότητα για flexbox"
 
   # shapes & graphics
   - key: features.shapes
-    t: CSS Shapes
+    t: CSS Σχήματα
   - key: features.masks
-    t: CSS Masks
+    t: CSS Μάσκες
   - key: features.blend_modes
-    t: Blend Modes
+    t: Τρόποι Ανάμειξης
   - key: features.filter_effects
-    t: CSS Filter Effects
+    t: CSS Εφέ Φίλτρων
 
   - key: features.intrinsic_sizing
-    t: Intrinsic Sizing
+    t: Εγγενής Μεγέθυνση
 
   # typography
   - key: features.web_fonts
-    t: Web Fonts (`@font-face`)
+    t: Γραμματοσειρές Ιστού (`@font-face`)
   - key: features.variable_fonts
-    t: Variable Fonts
+    t: Μεταβλητές Γραμματοσειρές
   - key: features.line_breaking
-    t: Line-Breaking Properties
+    t: Ιδιότητες Διακοπής Γραμμής
   - key: features.direction.description
-    t: Also includes `dir` HTML attribute.
+    t: Περιλαμβάνει επίσης το `dir` HTML attribute.
 
   # animations & transforms
   - key: features.transitions
-    t: CSS Transitions
+    t: CSS Μεταβάσεις
   - key: features.transforms
-    t: CSS Transforms
+    t: CSS Μετασχηματισμοί
   - key: features.animations
     t: CSS Animations
 
   # media queries/accessibility
   - key: features.tabindex
-    t: "`tabindex` HTML attribute"
+    t: "`tabindex` HTML χαρακτηριστικό"
 
   - key: features.aria_attributes
-    t: ARIA HTML Attributes
+    t: ARIA HTML Χαρακτηριστικά
   - key: features.aria_attributes.description
-    t: "`role`, `aria-label`, etc."
+    t: "`role`, `aria-label`, κτλ."
 
   # other features
   - key: features.variables
-    t: CSS Variables (Custom Properties)
+    t: Μεταβλητές CSS (Προσαρμοσμένες Ιδιότητες)
   - key: features.containment
-    t: CSS Containment
+    t: CSS Περιορισμός
   - key: features.comparison_functions
-    t: CSS Comparison Functions
+    t: CSS Συναρτήσεις Σύγκρισης
 
   - key: features.css_nesting.description
-    t: Native CSS nesting, excluding pre- or post-processors.
+    t: Εγγενής ενσωμάτωση CSS, εξαιρουμένων των προ- ή μετα-επεξεργαστών.
 
   # missing features (see also options)
   - key: features.nesting
-    t: Nesting
+    t: Ενφώλευση
   - key: features.nesting.description
-    t: Being able to nest styles in native CSS.
+    t: Δυνατότητα ενφώλευσης στυλ στο εγγενές CSS.
   - key: features.parent_selector
-    t: Parent Selector
+    t: Επιλογέας Γονέα
   - key: features.parent_selector.description
-    t: The ability to target a parent element based on its children.
+    t: Η δυνατότητα στόχευσης ενός γονικού στοιχείου βάσει των παιδιών του.
   - key: features.browser_support
-    t: Browser Support
+    t: Υποστήριξη Περιηγητών
   - key: features.browser_support.description
-    t: Better browser support for existing features.
+    t: Καλύτερη υποστήριξη περιηγητών για υπάρχοντα χαρακτηριστικά.
   - key: features.mixins
     t: Mixins
   - key: features.mixins.description
-    t: Group and reuse definitions dynamically.
+    t: Ομαδοποίηση και επαναχρησιμοποίηση ορισμών δυναμικά.
   - key: features.color_functions
-    t: Color Functions
+    t: Συναρτήσεις Χρώματος
   - key: features.color_functions.description
-    t: Functions for manipulating color values.
+    t: Λειτουργίες για τη χειραγώγηση των τιμών χρώματος.
   - key: features.container_queries
-    t: Container Queries
+    t: Ερωτήματα Κοντέινερ
   - key: features.container_queries.description
-    t: Being able to write styles based on the parent container's dimensions.
+    t: Δυνατότητα γραφής στυλ βάσει των διαστάσεων του γονικού κοντέινερ.
   - key: features.scoping
-    t: Scoping
+    t: Εμβέλεια
   - key: features.scoping.description
-    t: The ability to be more specific about where your styles are applied.
+    t: Η δυνατότητα να είστε πιο συγκεκριμένοι σχετικά με το πού εφαρμόζονται τα στυλ σας.
 
   ###########################################################################
   # Units & Selectors
