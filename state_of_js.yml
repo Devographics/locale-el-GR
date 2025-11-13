@@ -86,8 +86,12 @@ translations:
 
   - key: sections.mobile_desktop.title
     t: Mobile & Desktop
+    aliases:
+      - other_tools.mobile_desktop
   - key: sections.mobile_desktop.description
     t: JavaScript for mobile devices and desktop apps
+    aliases:
+      - other_tools.mobile_desktop.description
 
   - key: sections.build_tools.title
     t: Build Tools
@@ -96,8 +100,12 @@ translations:
 
   - key: sections.monorepo_tools.title
     t: Monorepo Tools
+    aliases:
+      - other_tools.monorepo_tools
   - key: sections.monorepo_tools.description
     t: Tools used to manage JavaScript monorepos.
+    aliases:
+      - other_tools.monorepo_tools.description
 
   - key: sections.tools.title
     t: Other Tools
