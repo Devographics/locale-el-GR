@@ -267,7 +267,7 @@ translations:
   - key: sections.resources.title
     t: Πηγές γνώσης
   - key: sections.resources.description
-    t: Ποιες πηγές συμβουλεύεστε για {topic};
+    t: Ποιες πηγές συμβουλεύεστε για
 
   - key: sections.opinions.title
     t: Γνώμη
